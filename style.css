@@ -1,35 +1,49 @@
-.esquiloww {
+#esquiloww {
+    width: 200px;
     position: relative;
 }
 .twitter {
-    width: 15vw;
+    width: 35px;
     position: absolute;
-    top: 9.5vw;
-    left: 8vw;
+    top: 24px;
+    left: 21px;
     animation:
         fadetwitter 1.5s infinite alternate-reverse,
-        delay 6s infinite;
+        delay 9s infinite;
 }
 
 .instagram {
     opacity: 0;
-    width: 15vw;
+    width: 33px;
     position: absolute;
-    top: 8vw;
-    left: 8vw;
+    top: 22px;
+    left: 22px;
     animation:
         fadeinstagram 1.5s infinite alternate-reverse,
-        delay 6s infinite;
+        delay 9s infinite;
     animation-delay: 3s
 }
+
+.facebook {
+    opacity: 0;
+    width: 33px;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    animation:
+        fadeinstagram 1.5s infinite alternate-reverse,
+        delay 9s infinite;
+    animation-delay: 6s
+}
+
 @keyframes delay {
     0% {
         opacity: 1;
     }
-    49% {
+    32% {
         opacity: 1;
     }
-    50% {
+    33% {
         opacity: 0;
     }
     100% {
