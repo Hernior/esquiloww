@@ -1,12 +1,12 @@
 #esquiloww {
-    width: 200px;
+    width: 100%;
     position: relative;
 }
 .twitter {
-    width: 35px;
     position: absolute;
-    top: 24px;
-    left: 21px;
+    width: 18%;
+    top: 15%;
+    left: 6.5%;
     animation:
         fadetwitter 1.5s infinite alternate-reverse,
         delay 9s infinite;
@@ -14,10 +14,10 @@
 
 .instagram {
     opacity: 0;
-    width: 33px;
     position: absolute;
-    top: 22px;
-    left: 22px;
+    width: 17%;
+    top: 12%;
+    left: 7%;
     animation:
         fadeinstagram 1.5s infinite alternate-reverse,
         delay 9s infinite;
@@ -26,10 +26,10 @@
 
 .facebook {
     opacity: 0;
-    width: 33px;
     position: absolute;
-    top: 22px;
-    left: 22px;
+    width: 17%;
+    top: 12%;
+    left: 7%;
     animation:
         fadeinstagram 1.5s infinite alternate-reverse,
         delay 9s infinite;
